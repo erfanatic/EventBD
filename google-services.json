@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "457737569537",
+    "firebase_url": "https://happeningbd-ddcda.firebaseio.com",
+    "project_id": "happeningbd-ddcda",
+    "storage_bucket": "happeningbd-ddcda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457737569537:android:74827e1d16ebc247",
+        "android_client_info": {
+          "package_name": "com.erfanatic.happeningbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457737569537-vtqubcb0mbn1pf553jtg35vttk8pktcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erfanatic.happeningbd",
+            "certificate_hash": "6BCA5EA487C1A1FEF056F28B4132F18AA73FA463"
+          }
+        },
+        {
+          "client_id": "457737569537-llc7flj9mcq1c766ai0hc3n1j19s8mic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3RRYETnfzprk_EmDK7igYfA0ZHPyd1cg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457737569537-llc7flj9mcq1c766ai0hc3n1j19s8mic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/parent_group">
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight=".5"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/leftGroup">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tv_eventName"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Bijoy Concert 2016 "
+
+        android:padding="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_eventDate"
+
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="16-12-2017"
+
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_eventLocation"
+
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="Army Stadium"
+
+        android:padding="10dp"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/RightGroup">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+            android:id="@+id/tv_eventDesc"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="short Description of the event goes here....."
+
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
